@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: int_territory_hierarchy_recursion
+    description: "This intermediate model is to recursively parse through every parent territory. The end result is a base territory, and hierarchy territory."
+    columns:
+      - name: base_territory_id
+        data_type: varchar
+        description: ""
+
+      - name: base_developer_name
+        data_type: varchar
+        description: ""
+
+      - name: parent_territory_id
+        data_type: varchar
+        description: ""
+
+      - name: hierarchy_developer_name
+        data_type: varchar
+        description: ""
+
+      - name: level
+        data_type: int
+        description: ""
+
+      - name: inherited_child_territory
+        data_type: varchar
+        description: ""    
+
+      - name: dynatrace_user_emails_array
+        data_type: array
+        description: "" 

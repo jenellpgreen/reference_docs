@@ -1,0 +1,29 @@
+version: 2
+
+models:
+  - name: int_sfdc_accountshare_group_roleandsubordinates
+    description: ""
+    columns:
+      - name: sfdc_account_id
+        data_type: varchar
+        description: ""
+
+      - name: shared_group_name
+        data_type: varchar
+        description: ""
+
+      - name: hierarchy_type
+        data_type: varchar
+        description: ""
+
+      - name: hierarchy_developer_name
+        data_type: varchar
+        description: ""
+
+      - name: level
+        data_type: varchar
+        description: ""
+
+      - name: dynatrace_user_email
+        data_type: varchar
+        description: ""

@@ -1,0 +1,33 @@
+version: 2
+
+models:
+  - name: mart_accountshare_user_mapping_agg
+    description: ""
+    columns:
+      - name: sfdc_account_id
+        data_type: varchar
+        description: ""
+
+      - name: territory_label
+        data_type: varchar
+        description: ""
+
+      - name: territory_type
+        data_type: varchar
+        description: ""
+      
+      - name: territory_geography
+        data_type: varchar
+        description: ""
+
+      - name: territory_super_region
+        data_type: varchar
+        description: ""
+
+      - name: territory_sales_region
+        data_type: varchar
+        description: ""
+
+      - name: dynatrace_user_emails_listagg
+        data_type: varchar
+        description: ""

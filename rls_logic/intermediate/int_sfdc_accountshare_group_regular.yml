@@ -1,0 +1,13 @@
+version: 2
+
+models:
+  - name: int_sfdc_accountshare_group_regular
+    description: ""
+    columns:
+      - name: sfdc_account_id
+        data_type: varchar
+        description: ""
+
+      - name: dynatrace_user_emails
+        data_type: varchar
+        description: ""

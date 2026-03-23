@@ -1,0 +1,37 @@
+version: 2
+
+models:
+  - name: int_role_hierarchy_recursion_with_children
+    description: "This intermediate model is to recursively parse through every child and parent role. The end result is a base role, and hierarchy role, with an indicator if it's from a child or parent."
+    columns:
+      - name: hierarchy_type
+        data_type: varchar
+        description: "Identifies if the hierarchal role is a child or parent of the base role"
+
+      - name: base_role_id
+        data_type: varchar
+        description: ""
+
+      - name: base_developer_name
+        data_type: varchar
+        description: ""
+
+      - name: hierarchy_role_id
+        data_type: varchar
+        description: ""
+
+      - name: hierarchy_developer_name
+        data_type: varchar
+        description: ""
+
+      - name: level
+        data_type: int
+        description: ""
+
+      - name: inherited_role_id
+        data_type: varchar
+        description: ""    
+
+      - name: dynatrace_user_email
+        data_type: varchar
+        description: "" 
